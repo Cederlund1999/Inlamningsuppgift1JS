@@ -3,12 +3,38 @@
     margin: 0;
 }
 
-
+header {
+    background-color:grey;
+    color: white;
+}
 
 .headerclass{
-    width: 75%;
-    height: 50%;
-    background-color: black;
-    color: white;
-    margin:auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1%;
+    
+}
+
+
+
+.container{
+    display:flex;
+    flex-direction: column  ;
+    justify-content: space-between;
+    
+}
+.newPostButton{
+    border-color: black;
+    margin:10%;
+    
+    
+}
+footer{
+    bottom: 0;
+    width: 100%;
+    padding-top: 1%;
+    position:fixed;
+    text-align: center;
+    background-color: grey;
+    height: 5%
 }
