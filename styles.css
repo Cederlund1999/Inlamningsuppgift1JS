@@ -38,3 +38,34 @@ footer{
     background-color: grey;
     height: 5%
 }
+.main1{
+    
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content:space-evenly;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  max-width: 80%;
+  margin: auto;
+  
+}
+.inlägg {
+    box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw ;
+    min-width: 25%;
+    max-width: 100%;
+    margin-top: 5%;
+    padding: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    
+}
+@media (min-width: 1000px){
+.inlägg{
+    max-width: 25%;
+}
+
+}
+
+
