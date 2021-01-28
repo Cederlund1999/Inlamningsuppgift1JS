@@ -14,42 +14,11 @@ header {
     padding-top: 1%;
     
 }
-
-
-
 .container{
     display:flex;
     flex-direction: column  ;
     justify-content: space-between;
     
-}
-.newPostButton{
-    border-color: black;
-    margin:10%;
-    
-    
-}
-footer{
-    bottom: 0;
-    width: 100%;
-    padding-top: 1%;
-    position:fixed;
-    text-align: center;
-    background-color: grey;
-    height: 5%
-}
-.main1{
-    
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  justify-content:space-evenly;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  max-width: 80%;
-  margin: auto;
-  
 }
 .inlägg {
     box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw ;
@@ -61,13 +30,48 @@ footer{
     text-align: center;
     
 }
-
-
-@media (min-width: 1000px){
-.inlägg{
-    max-width: 25%;
+.ulmain{
+    
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content:space-evenly;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 80%;
+    margin: auto;
+    
+  }
+  footer{
+    bottom: 0;
+    width: 100%;
+    padding-top: 1%;
+    position:fixed;
+    text-align: center;
+    background-color: grey;
+    height: 5%
 }
 
+ul{
+    list-style: none;
+}
+
+.newPostButton {
+    border-radius: 5px;
 }
 
 
+
+@media (max-width: 600px) {
+.inlägg {
+    min-width: 75%;
+    min-height: 80%;
+}
+}
+@media (min-width:600px){
+    .inlägg {
+        min-width: 25%;
+        max-width: 25%;
+    }
+}

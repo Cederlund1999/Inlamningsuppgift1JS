@@ -3,55 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+    <title>Gustavs Blogg</title>
     <link rel="stylesheet" href="styles.css">
     <script src="main.js"></script>
 </head>
-
 <body>
     <header class="headerclass">
         <div>
             <h1>Blogg</h1>
         </div>
         <div class="container" style="width: 0.8in;">
-            <label for="input-number">Inlägg</label>
-            <input id="input-number" type="number" placeholder="0">
-            <button class="newPostButton" onclick="buttonClick()">New post</button>
+        <label for="input-number">inlägg</label>
+        <input id="input-number"  placeholder="0">
+        <button class="newPostButton" onclick="buttonClick()">New Post</button>
+        <button onclick="removeSection()">Delete Post</button>
         </div>
         <div>
-            <button style="width: 50px; height: 50px;" onclick="RemoveOneSection()"> reset</button>
+            
         </div>
     </header>
-<main id="main1" class="main1"> 
-    <section class="inlägg">
-        <h3>title</h3>
+    <ul id="mainul" class="ulmain">
+        <li class="inlägg">
+            <h3>Title</h3>
             <p>
-                    hejhejhej
+                hejhej
             </p>
-        
-        
-    </section>
-    <section class="inlägg">
-        <h3>title</h3>
-            <p>
-                hejhejhej
-            </p>
-        
-    </section><section class="inlägg">
-        <h3>title</h3>
-            <p>
-                hejhejhej
-            </p>
-        
-    </section>
-       
-</main>
+        </li>
 
-
+    </ul>
 </body>
 <footer>
     Cederlund1999@gmail.com
 
 </footer>
-
 </html>
