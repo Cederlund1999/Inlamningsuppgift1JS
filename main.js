@@ -3,7 +3,7 @@ window.onload = function(){
 }
 
 
-let posts=0;
+let posts=1;
 let i = 0;
 function buttonClick(){
     document.getElementById('input-number').value = posts++;
@@ -21,7 +21,7 @@ function buttonClick(){
     textbox.contentEditable = true;
     i++;
 
-    title.innerHTML = "Title" + i;
+    title.innerHTML = i +". Title" ;
     textbox.innerHTML = "brödtext";
 
     child.appendChild(title);
@@ -36,9 +36,15 @@ let list = document.getElementById("mainul")
 
 list.removeChild(list.childNodes[numberToRemove]);
 
-if(posts >=0)
+if(posts >=1)
 {
-document.getElementById('input-number').value = posts--;
+document.getElementById('input-number').value--;
+i--;
+posts--;
+console.log(i +"i");
+console.log(posts+"posts");
+console.log(document.getElementById('input-number').value + "input");
+
 }
 
 }
@@ -50,3 +56,4 @@ function onStartRemove(){
         console.log("hej");
     }
 }
+
