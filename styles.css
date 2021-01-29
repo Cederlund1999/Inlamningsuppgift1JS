@@ -9,6 +9,7 @@ header {
     color:black;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    
 }
 
 body{
@@ -20,6 +21,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     padding-top: 1%;
+    
     
 }
 .container{
@@ -37,6 +39,8 @@ body{
     padding: 2%;
     margin-bottom: 2%;
     text-align: center;
+    background-color: lightgray;
+    
     
     
 }
@@ -47,6 +51,7 @@ body{
     
     
 }
+
 label{
     font-size: 125%;
 }
@@ -83,6 +88,7 @@ h3{
 ul{
     list-style: none;
 }
+
 
 p{
     border-style: inset;
