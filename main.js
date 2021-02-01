@@ -1,6 +1,6 @@
 /*
 Jag har använt mig mycket av Console.log() för debugging, för att lätt kunna se functionen körs eller inte
-sedan har jag även använt "use strict"; för att undvika fel vid deklaration av variabler m.m. 
+sedan har jag även lagt in "use strict"; för att undvika fel vid deklaration av variabler m.m. 
 Har också använt mig en del av consollen i browsern för att testa vissa rader med kod. t.ex när jag vill testa
 "document.getElementById('input-number').value--" om denna minskade värdet i inlägg rutan. 
 */
